@@ -1,5 +1,8 @@
+
+
 :root{
   --primary-color: #D62839;
+  --dark-text: #A6B07E;
 }
 
 body{
@@ -71,4 +74,21 @@ hr {
 
 .navigation .link {
   color: white;
+}
+
+/*------- header --------*/
+
+.hero {
+  padding: 2rem;
+}
+
+.hero .hero-img {
+  max-width: 300px;
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-heading {
+  color: var(--dark-text);
+  padding-top: 1rem;
 }
