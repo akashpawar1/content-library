@@ -8,6 +8,7 @@
 
 body{
   font-family: 'Noto Sans', sans-serif;
+  margin: 0px;
 }
 
 hr {
@@ -90,6 +91,7 @@ hr {
 }
 
 .hero .hero-heading {
+  text-align: center;
   color: var(--dark-text);
   padding-top: 1rem;
 }
@@ -104,5 +106,20 @@ hr {
 }
 
 .ow {
-  background-color: var(--off-white)
+  background-color: var(--off-white);
+}
+
+/*------- section --------*/
+
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem 0rem;
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+}
+
+.footer .link {
+  color: white;
+  padding-inline-start: 0px;
 }
