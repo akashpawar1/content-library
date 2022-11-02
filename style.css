@@ -3,6 +3,7 @@
 :root{
   --primary-color: #D62839;
   --dark-text: #A6B07E;
+  --off-white: #C9C9C9;
 }
 
 body{
@@ -91,4 +92,17 @@ hr {
 .hero .hero-heading {
   color: var(--dark-text);
   padding-top: 1rem;
+}
+
+/*------- section --------*/
+.section {
+  padding: 1rem 0;
+}
+
+.section h1,.section h2,.section h3 {
+  text-align: center;
+}
+
+.ow {
+  background-color: var(--off-white)
 }
